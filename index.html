@@ -1,0 +1,173 @@
+<!DOCTYPE html> 
+<html>
+<!--Thong tin cua web: tieu de, tu khoa chinh, tom tat noi dung,....-->
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>HTML A - Z</title>
+        <!--Charset dung unicode ma hoa trang web-->
+        <meta charset="utf-8">
+        <meta name="author" content="Minh Đức">
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <!--meta http-equiv="refresh" content="5"-->
+    </head>
+<!--Hien thi noi dung trong the body-->    
+    <body style="background-color:aqua;">
+        <!--The button-->
+        Ấn đi đừng sợ hihi
+        <button onclick="changeText()" style="background-color: #ff5733; border-radius: 6px; width: 20%;">
+            Click me!
+        </button>
+        <h1 id="h1id">Hello</h1>
+
+        <script>
+            changeText = () => {
+                document.getElementById("h1id").innerHTML = "Lô cc";
+            }
+        </script>
+        
+        <hr>
+        <!--The iframe nhung 1 nd bat ky vao trang web hien tai-->
+        <iframe width="100%" src="https://codelearn.io/home"></iframe>
+
+        <hr>
+        <div id="box1">
+            Box1
+        </div>
+        <div id="box2">
+            Box2
+            Internship là một chương trình thực tập giúp sinh viên hoặc người mới tốt nghiệp trải nghiệm công việc thực tế trong môi trường chuyên nghiệp. Đây là cơ hội để học hỏi kỹ năng, tích lũy kinh nghiệm và mở rộng mối quan hệ. Thực tập cũng giúp định hướng nghề nghiệp rõ ràng hơn trước khi chính thức đi làm.
+        </div>
+
+        <!--Cac loai dinh danh-->
+        <!--In dam-->
+        <p>Tôi đang <b>đi làm</b></p>
+        <!--In nghieng-->
+        <p>Tôi đang <i>đi làm</i></p>
+        <!--Co lon-->
+        <p>Tôi đang <big>đi làm</big></p>
+        <!--Co nho-->
+        <p>Tôi đang <small>đi làm</small></p>
+        <!--Co nho xuong dong-->
+        <p>Tôi đang <sub>đi làm</sub></p>
+        <!--Gach duoi-->
+        <p>Tôi đang <ins>đi làm</ins></p>
+        <!--Xoa-->
+        <p>Tôi đang <del>đi làm</del></p>
+        <!--To dam-->
+        <p>Tôi đang <mark>đi làm</mark></p>
+    
+        <!--Element-->
+        <h1 style="color: brown;">Internship with me</h1>
+        <!--Doan van-->
+        <p class="gioithieu">Xin chào <br> Internship là một chương trình thực tập giúp sinh viên hoặc người mới tốt nghiệp trải nghiệm công việc thực tế trong môi trường chuyên nghiệp. Đây là cơ hội để học hỏi kỹ năng, tích lũy kinh nghiệm và mở rộng mối quan hệ. Thực tập cũng giúp định hướng nghề nghiệp rõ ràng hơn trước khi chính thức đi làm.</p>
+        <hr>
+        <p class="noidung">Thông qua kỳ thực tập, người tham gia có thể áp dụng kiến thức lý thuyết đã học vào thực tiễn, đồng thời rèn luyện tác phong làm việc chuyên nghiệp. Nhà tuyển dụng cũng có cơ hội đánh giá và phát hiện những ứng viên tiềm năng để tuyển dụng chính thức sau này. Vì vậy, internship là bước đệm quan trọng cho hành trình phát triển sự nghiệp.</p>
+        <p id="para10">Thông qua kỳ thực tập, người tham gia có thể áp dụng kiến thức lý thuyết đã học vào thực tiễn, đồng thời rèn luyện tác phong làm việc chuyên nghiệp. Nhà tuyển dụng cũng có cơ hội đánh giá và phát hiện những ứng viên tiềm năng để tuyển dụng chính thức sau này. Vì vậy, internship là bước đệm quan trọng cho hành trình phát triển sự nghiệp.</p>
+        
+        <a href="https://www.google.com.vn/?hl=vi" target="_blank">
+            Google
+        </a>
+        <br>
+        <a href="More Information.html">
+            More Information
+        </a>
+        <hr>
+        <img class="canhan" src="/Images/762.jpg" height="300px" alt="Người tôi tin tưởng nhất" title="Tin tưởng phết">
+        <img class="tapthe" src="/Images/763.jpg" height="300px" width="216px" title="Đẹp trai phết">
+        <br>
+        <video controls width="300">
+            <source src="Bai4_Nhom9.mp4">
+        </video>
+        <br>
+
+        <hr>
+        <!--Cac loai list-->
+        <h2 style="color: rgb(103, 204, 0);">Unordered List</h2>
+           <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+           </ul> 
+        
+        <h2 style="color: #ff5733;">Ordered List</h2> 
+           <ol type="1">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+           </ol>  
+        
+        <h2>Description List</h2>    
+           <dl>
+            <dt>Môn học bắt buộc</dt>
+            <dd>Cấu trúc dữ liệu và giải thuật, Toán cao cấp</dd>
+           </dl>
+        
+        <!--Bang bieu-->
+        <table bgcolor="black">
+            <!--Table row-->
+            <tr bgcolor="grey">
+                <!--Table head-->
+                <th>Stt</th>
+                <th>Tên</th>
+                <th>Ngành học</th>
+            </tr>
+            <tr bgcolor="lightgrey">
+                <!--Table description-->
+                <td>024</td>
+                <td>Minh Đức</td>
+                <td>IoT</td>
+            </tr>
+        </table>   
+        <hr>
+    
+        <!--HTML form cho phep nhap du lieu va gui dl de xu ly-->
+        <form method="post">
+            <h1>Đăng nhập</h1>
+            <h2>Thông tin cơ bản</h2>
+            <div>
+                <label for="fname">Firstname:</label>
+                <input type="text" id="fname" name="fname"><br>
+            </div>
+
+            <div>
+                <label for="lname">Lastname:</label>
+                <input type="text" id="lname" name="lname"><br>
+            </div>
+
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass"><br>
+            </div>
+
+            <div>
+                <label>Gender:</label>
+                  <input type="radio" id="male" name="gender" value="male">Nam
+                  <input type="radio" id="female" name="gender" value="female">Nữ
+            </div>
+
+            <div>
+                <label for="dob">Date of birth:</label>
+                <input type="date" id="dob" name="dob"><br>
+            </div>
+
+            <h2>Nghề nghiệp và chức vụ</h2>
+            <div>
+                <label>Major:</label>
+                <select name="Major">
+                    <option value="CNTT">CNTT</option>
+                    <option value="IoT">IoT</option>
+                    <option value="AI">AI</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="radio" name="role" value="Student">Student
+                <input type="radio" name="role" value="Teacher">Teacher
+                <input type="radio" name="role" value="Staff">Staff
+            </div><br>
+            <input style="background-color:darkgreen;" type="submit">
+            <input style="background-color: red;" type="reset">
+        </form>  
+
+    </body>
+</html>

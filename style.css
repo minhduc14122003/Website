@@ -1,0 +1,88 @@
+/* Selector  ttheoag */
+p{
+    background-color: rgb(240, 255, 243); color: green
+}
+
+/* Selector theo class */
+.gioithieu{
+    background-color: pink; color: green
+}
+.noidung{
+    background-color: blueviolet; color: red
+}
+
+/* Selector theo id */
+#para10{
+    background-color: brown; color: white;
+}
+
+/* Font chữ  */
+p{
+    font-family: Arial, Lucida Sans, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Border */
+p{
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    border-top-color: blue;
+    border-top-width: 15px;
+}
+
+/* Background */
+body{
+    background-image: url("Images/1140073.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+} 
+
+#para10{
+    background: linear-gradient(to right, skyblue, lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Margin và Padding */
+#box1{
+    width: 200px;
+    height: 200px;
+    border: 5px, solid, black;
+    background-color: blue;
+    position: relative;
+    top: 30px;
+    left: 1280px;
+    right: 400px;
+
+}
+
+#box2{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    background-color: rgb(179, 191, 179);
+    margin-top: 10px;
+    padding: 20px
+}
+
+.canhan{
+    position: fixed;
+    top: 5px;
+    left: 1286px;
+}
+
+.tapthe{
+    position: sticky;
+    top: 5px;
+    left: 1286px;
+}
+
